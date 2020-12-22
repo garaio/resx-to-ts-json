@@ -1,5 +1,6 @@
 "use strict";
 var program = require('./index');
-program.executeResxToTs('app.resources', '/custom/node-resx-to-typescript/Resources', '/custom/node-resx-to-typescript/Resources/_generated');
-program.executeResxToJson('/custom/node-resx-to-typescript/Resources', '/custom/node-resx-to-typescript/Resources/_generated/json');
+program.executeResxToTs('testnamespace', '/Resources', '/Resources/_generated');
+program.executeResxToJson('/Resources', '/Resources/_generated/');
+program.executeResxToTsTranslationKeys('Reka.RekaNet.EmployerPortal.Web.VueResources.', '/Resources', '/Resources/_generated/keysOnly', /VueResources.resx$/);
 //# sourceMappingURL=test.js.map
