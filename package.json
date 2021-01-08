@@ -1,6 +1,6 @@
 {
   "name": "resx-to-ts-json",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Converts resx files to TypeScript definitions and json files",
   "main": "dist/index.js",
   "scripts": {
